@@ -20,7 +20,7 @@ export default function Login(props) {
               value={usrName}
               onChange={handleChange}
               helperText="Incorrect entry."
-              error={true}
+              error={false}
             />
           </Grid>
         </Grid>
